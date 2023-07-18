@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #394E8D;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contents {
+    background: #E1E1E5;
+    border: 1px solid white;
+    margin: 50px;
+    padding: 50px;
+}
+h1 {
+    width: 200px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    color: #E1E1E5;
+    background: #394E8D;
+    padding: 15px;
+}
+
+#recipes-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    display: inline-block;
+    justify-content: space-between;
+    color: #5B678A;
+    font-size: large;
+    text-align: center;
+}
+a:hover {
+    color: #394E8D
+}
+img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #5B678A;
+}
